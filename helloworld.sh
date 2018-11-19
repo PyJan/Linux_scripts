@@ -4,3 +4,6 @@ echo 'hello world' # print that
 # call <bash helloworld.sh> or <./helloworld.sh>
 echo 'another one'
 echo and one more
+cal apr 2017
+echo my name is $USER
+wc --help

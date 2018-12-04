@@ -1,0 +1,8 @@
+-- usage in shell: sqlite3 mydb.db < sqlite3_table.txt
+create table employees(id integer primary key, name text);
+insert into employees(name) values('jan');
+insert into employees(name) values('john');
+insert into employees(name) values('jack');
+.mode columns
+.header on
+select * from employees;
